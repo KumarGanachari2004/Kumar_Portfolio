@@ -4,7 +4,7 @@ import {
   Github, Instagram , Linkedin, BookOpen, Search, Wifi, Battery, Play, RotateCcw, 
   Aperture, Download, Twitter, Monitor
 } from 'lucide-react';
-
+import profile from "./assets/profile-pic.png"
 // --- Types & Interfaces ---
 
 interface WindowState {
@@ -33,7 +33,7 @@ const AboutContent = () => (
   <div className="p-8 font-sans text-gray-800 h-full overflow-y-auto bg-gradient-to-br from-white to-gray-50">
     <div className="flex flex-col items-center mb-8">
       <div className="w-32 h-32 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500 mb-4 shadow-xl flex items-center justify-center text-white text-4xl font-bold border-4 border-white overflow-hidden relative">
-         <span className="z-10"><img src="profile-pic.png" alt="image" /></span>
+         <span className="z-10"><img src={profile} alt="image" /></span>
          <div className="absolute inset-0 bg-black/10"></div>
       </div>
       <h1 className="text-4xl font-bold text-gray-900 tracking-tight">Kumareshwar Ganachari</h1>
@@ -72,6 +72,27 @@ const AboutContent = () => (
           </li> */}
         </ul>
       </section>
+            <section className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+        <h2 className="text-xl font-bold border-b pb-3 mb-4 text-gray-800 flex items-center gap-2">
+          Quote Of The Day
+        </h2>
+        {/* <ul className="space-y-3">
+          <li className="flex items-start">
+            <span className="w-2 h-2 mt-2 mr-3 bg-blue-500 rounded-full flex-shrink-0"></span>
+            <span className="text-gray-700">4th Place-National Hackathon at CMRIT 2024</span>
+          </li>
+          <li className="flex items-start">
+            <span className="w-2 h-2 mt-2 mr-3 bg-purple-500 rounded-full flex-shrink-0"></span>
+            <span className="text-gray-700">Gold Medal in National Level Pencak Silat Championship</span>
+          </li> */}
+          <li className="flex items-start">
+            <span className="w-2 h-2 mt-2 mr-3 bg-green-500 rounded-full flex-shrink-0"></span>
+            <span className="text-gray-700">Win Or Die Trying</span>
+          </li>
+        {/* </ul> */}
+      </section>
+
+
     </div>
   </div>
 );
