@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   Terminal, User, Code, Gamepad2, Globe, X, Minus, Maximize2, Minimize2, 
-  Github, Instagram, Linkedin, BookOpen, Search, Wifi, Battery, Play, RotateCcw, 
+  Github, Instagram , Linkedin, BookOpen, Search, Wifi, Battery, Play, RotateCcw, 
   Aperture, Download, Twitter, Monitor
 } from 'lucide-react';
 
@@ -88,7 +88,7 @@ const SkillsExperienceContent = () => (
         
         <div className="pl-6">
           <span className="text-blue-300">"skills"</span>: [<br/>
-            <span className="pl-4 text-green-300">"Python", "JavaScript", "React.js", "Node.js","Express.js", "MongoDB", "TailwindCSS", "SQL", "Linux(Basics)"</span><br/>
+            <span className="pl-4 text-green-300">"HTML", "CSS", "Python", "JavaScript","REST APIs","React.js", "Node.js","Express.js", "MongoDB", "TailwindCSS", "SQL", "MaterialUI", "Bootstrap","LLM(Basics)","AI Tools","AWS","Linux(Basics)"</span><br/>
           ],
         </div>
 
@@ -102,14 +102,14 @@ const SkillsExperienceContent = () => (
             <span className="pl-4 text-sky-300">"impact"</span>: <span className="text-orange-300">"Working on scalable enterprise solutions and AI integration."</span><br/>
             <span className="text-yellow-300">{`},`}</span>
           </div>
-          <div className="pl-4 group hover:bg-white/5 p-1 rounded transition-colors">
+          {/* <div className="pl-4 group hover:bg-white/5 p-1 rounded transition-colors">
             <span className="text-yellow-300">{`{`}</span><br/>
             <span className="pl-4 text-sky-300">"company"</span>: <span className="text-orange-300">"HiDevs"</span>,<br/>
             <span className="pl-4 text-sky-300">"role"</span>: <span className="text-orange-300">"GenAI  Intern"</span>,<br/>
             <span className="pl-4 text-sky-300">"duration"</span>: <span className="text-orange-300">"Oct 2025 - Dec 2025"</span>,<br/>
             <span className="pl-4 text-sky-300">"impact"</span>: <span className="text-orange-300">"Built and deployed AI-powered applications using LLMs, prompt engineering, and API integrations."</span><br/>
             <span className="text-yellow-300">{`}`}</span>
-          </div>
+          </div> */}
           ],
         </div>
 
@@ -171,10 +171,10 @@ const BrowserContent = () => (
             <a href="https://github.com/KumarGanachari2004" target="_blank" rel="noreferrer" className="flex items-center p-3 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors gap-3">
               <Github size={20} className="text-gray-900" /> <span className="text-sm font-medium">GitHub</span>
             </a>
-            <a href="https://www.instagram.com/kumar.ganachari" className="flex items-center p-3 bg-pink-50 rounded-lg hover:bg-pink-100 transition-colors gap-3">
-              <Instagram size={20} className="text-pink-600" /> <span className="text-sm font-medium">Kumar Ganachari</span>
+            <a href="https://leetcode.com/u/Kumarganachari_2004/" target="_blank" rel="noreferrer" className="flex items-center p-3 bg-orange-50 rounded-lg hover:bg-orange-100 transition-colors gap-3">
+              <Code size={20} className="text-orange-600" /> <span className="text-sm font-medium">LeetCode</span>
             </a>
-             <a href="https://x.com/kumar_ganachari" className="flex items-center p-3 bg-black rounded-lg hover:bg-gray-800 transition-colors gap-3">
+             <a href="https://x.com/kumar_ganachari" target="_blank" rel="noreferrer" className="flex items-center p-3 bg-black rounded-lg hover:bg-gray-800 transition-colors gap-3">
               <Twitter size={20} className="text-white" /> <span className="text-sm font-medium text-white">Kumar Ganachari</span>
             </a>
           </div>
@@ -197,11 +197,11 @@ const BrowserContent = () => (
               <p className="text-sm text-gray-600">An AI-powered stock trading platform that helps traders make smarter investment decisions using predictive analytics.</p>
             </div>
 
-            <div className="border border-gray-200 rounded-xl p-4 hover:border-blue-300 transition-colors">
+            {/* <div className="border border-gray-200 rounded-xl p-4 hover:border-blue-300 transition-colors">
               <h3 className="font-bold text-lg text-blue-600">TravelNest</h3>
               <p className="text-xs text-gray-500 mt-1 mb-2">Next.js, React, Tailwind CSS, Node.js, Express.js, MongoDB, Google Maps API,Docker, AWS.</p>
               <p className="text-sm text-gray-600">A feature-rich travel platform that lets users discover destinations, plan trips, book stays, and manage itineraries seamlessly in one place.</p>
-            </div>
+            </div> */}
 
           </div>
         </div>
